@@ -2,23 +2,52 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Productos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Examen de Programación Web</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-<nav>
-    <ul class="menu">
-        <li><a href="inicio.html">Inicio</a></li>
-        <li><a href="conocenos.html">Conócenos</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="registro.html">Registro</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-</nav>
+    <!-- Menú -->
+    <div class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Conocenos</a>
+        <a href="#">Productos</a>
+        <a href="#">Registro</a>
+        <a href="#">Contacto</a>
+    </div>
 
-<h1>Productos</h1>
-<p>Aquí van los productos de la empresa.</p>
+    <!-- Formulario -->
+    <div class="contenedor">
+
+        <table>
+            <tr>
+                <td><label>Web:</label></td>
+                <td>
+                    <input type="url"
+                           value="https://accounts.google.com/signup">
+                </td>
+                <td rowspan="3">
+                    <button>Buscar</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Nombre:</label></td>
+                <td>
+                    <input type="text" value="Juan">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Apellido:</label></td>
+                <td>
+                    <input type="text" value="Pablo">
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
 
 </body>
 </html>
